@@ -57,7 +57,21 @@
     > ex.
     >
     >```html
-    ><video src="/Linux/實作/Files/Networking/網卡-選取複製貼上.mov" controls muted=true width=100%></video>
+    ><video src="Linux/實作/Files/Networking/網卡-選取複製貼上.mov" controls muted=true width=100%></video>
     >```
     >
-    ><video src="/linux/實作/Files/Networking/網卡-選取複製貼上.mov" controls muted=true width=100%></video>
+    ><video src="Linux/實作/Files/Networking/網卡-選取複製貼上.mov" controls muted=true width=100%></video>
+
+5. 圖片大小更改
+
+    ```html
+    <img src="[$圖片位置]" width="[$百分比]">
+    ```
+
+    > ex.
+    >
+    >```html
+    ><img src="Linux/實作/Files/SSH/1.png" width="50%">
+    >```
+    >
+    ><img src="Linux/實作/Files/SSH/1.png" width="50%">

@@ -11,36 +11,83 @@
 <details>
 <summary>理論</summary>
 
-- [Linux 底層架構](/Linux/理論/Linux_底層架構.md)
-- [底層架構 - UNIX](/Linux/理論/底層架構-UNIX.md)
-- [目錄結構](/Linux/理論/目錄結構.md)
+- [Linux 底層架構](Linux/理論/Linux_底層架構.md)
+- [底層架構 - UNIX](Linux/理論/底層架構-UNIX.md)
+- [目錄結構](Linux/理論/目錄結構.md)
 
 </details>
 
 <details>
 <summary>實作</summary>
 
-- [前置作業]
-- [Networking]
-- [SSH]
-- [Routing]
-- [DHCP]
+- [前置作業](Linux/實作/前置作業.md)
+- [Networking](Linux/實作/Networking.md)
+- [SSH](Linux/實作/SSH.md)
+- [Routing](Linux/實作/Routing.md)
+- [DHCP](Linux/實作/DHCP.md)
 - [Bind9]
 - [Nginx]
 - [Easy-RSA]
 
 </details>
 
-## Windows
-
-暫無
-
 ## Windows Server
 
-暫無
+<details>
+<summary>實作</summary>
+
+- [前置作業](Windows%20Server/實作/前置作業.md)
+- [AD]
+- [CA]
+- [Router]
+- [DHCP]
+- [VPN]
+
+</details>
+
+## Windows
+
+<details>
+<summary>實作</summary>
+
+- [加入 AD 網域]
+- [開啟 ICMP]
+
+</details>
+
+## Cisco Packet Tracer
+
+<details>
+<summary>實作</summary>
+
+- [VLAN](Cisco%20Packet%20Tracer/實作/VLAN.md)
+- [DHCP]
+- [DHCP Relay]
+- [NAT]
+- [RIP]
+- [OSPF]
+- [ACL]
+- [EtherChannel]
+- [DCE,DTE]
+- [Frame Relay]
+
+</details>
 
 ## Cisco IOS
 
 暫無
 
-## Cisco Packet Tracer
+## 解題
+<details>
+<summary>OS</summary>
+
+- [55th寒假資網驗收模擬試題 - 中繼CA](解題/OS/55th寒假資網驗收模擬試題%20-%20中繼CA.md)
+
+</details>
+
+<details>
+<summary>PT</summary>
+
+- [2024資網校內淘汰賽試題 - 1026.pka](解題/PT/2024資網校內淘汰賽試題%20-%201026.pka.md)
+
+</details>
