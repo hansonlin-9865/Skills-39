@@ -47,3 +47,17 @@
 
     > ex.
     > 這裡已經範例了...不用我寫了吧
+
+4. 插入影片
+
+    ```html
+    <video src="[＄影片位置]" controls muted=true width=100%></video>
+    ```
+
+    > ex.
+    >
+    >```html
+    ><video src="/Linux/實作/Files/Networking/網卡-選取複製貼上.mov" controls muted=true width=100%></video>
+    >```
+    >
+    ><video src="/linux/實作/Files/Networking/網卡-選取複製貼上.mov" controls muted=true width=100%></video>

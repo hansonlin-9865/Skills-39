@@ -11,8 +11,9 @@
 <details>
 <summary>理論</summary>
 
-- [Linux 底層架構](/Linux/Linux_底層架構.md)
-- [底層架構 - UNIX](/Linux/底層架構-UNIX.md)
+- [Linux 底層架構](/Linux/理論/Linux_底層架構.md)
+- [底層架構 - UNIX](/Linux/理論/底層架構-UNIX.md)
+- [目錄結構](/Linux/理論/目錄結構.md)
 
 </details>
 
@@ -20,12 +21,12 @@
 <summary>實作</summary>
 
 - [前置作業]
-- [networking]
+- [Networking]
 - [SSH]
 - [Routing]
 - [DHCP]
-- [bind9]
-- [nginx]
+- [Bind9]
+- [Nginx]
 - [Easy-RSA]
 
 </details>
