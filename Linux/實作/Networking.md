@@ -26,6 +26,7 @@ net.ifnames=0 biosdevname=0
 接著開啟虛擬機設定並加入需要的網卡，螢幕右下角 CD 圖示按右鍵 Settings，選取 Hardware 項目底下的 Add...
 
 ![image](Files/Networking/2.png)
+
 ![image](Files/Networking/3.png)
 
 選取 Network Adapter 按 Finish
@@ -112,3 +113,23 @@ ex. eth0 -> LAN
 更改完畢後 `reboot` 再輸入 `ip a` 查看是否更改成功！
 
 ![image](Files/Networking/12.png)
+
+## 更改 loopback Interface IP
+
+創建一個 `.rules` 並加入以下內容
+
+```bash
+RUN+="/usr/bin/ip addr del 127.0.0.1/8 dev lo", RUN+="/usr/bin/ip addr add XX.XX.XX.XX/XX dev lo"
+```
+
+![image](Files/Networking/13.png)
+
+- `XX.XX.XX.XX/XX` 自行更改為需要的 IP
+
+記得將 `/etc/hosts` 內的 localhost & host IP 更改為變更後的 IP，否則有些服務會崩潰。
+
+![image](Files/Networking/14.png)
+
+接著 `reboot` 後 `ip a` lo 網卡的 IP 應該為更改後的 IP。
+
+![image](Files/Networking/15.png)
